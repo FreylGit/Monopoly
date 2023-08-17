@@ -29,6 +29,8 @@ while (true)
         case 6:
             ShowPalletMaxExpiryDateSortWigth(palletServices);
             break;
+        case 0:
+            return;
         default:
             break;
     }
@@ -43,6 +45,7 @@ static void Menu()
     Console.WriteLine("4 - Отсортировать по возрастанию срока годности");
     Console.WriteLine("5 - В каждой группе отсортировать паллеты по весу");
     Console.WriteLine("6 - 3 паллеты, которые содержат коробки с наибольшим сроком годности, отсортированные по возрастанию объема");
+    Console.WriteLine("0 - Выход");
 }
 static void ShowPallet(ApplicationDbContext context)
 {
