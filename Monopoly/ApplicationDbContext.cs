@@ -12,6 +12,7 @@ namespace Monopoly
 
         public void LoadDate()
         {
+            Pallets.Clear();
             int idBox = 1;
             int idPallet = 1;
             for (int i = 0; i < 10; i++)
