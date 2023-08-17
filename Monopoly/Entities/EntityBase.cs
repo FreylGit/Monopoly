@@ -18,7 +18,7 @@
         public abstract double CalculationVolume();
         public override string ToString()
         {
-            return $"ID:{ID}\n Ширира:{Width}\n Высота:{Height}\n Глубина:{Depth}\n Вес:{Weight}\n";
+            return $"ID:{ID}\n Ширина:{Width}\n Высота:{Height}\n Глубина:{Depth}\n Вес:{Weight}\n";
         }
 
     }
